@@ -5,6 +5,9 @@
 > **Student / Engineer:** College Internship Capstone Demonstration  
 
 ---
+## 🌐 Live Demo
+
+👉 **[Click Here to View Live Demo](https://your-demo-link.netlify.app/)**
 
 ## 1. Project Overview
 
