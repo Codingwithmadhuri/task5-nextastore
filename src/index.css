@@ -1,0 +1,78 @@
+@import "tailwindcss";
+
+@theme {
+  --color-aurora: #8ea4c4;
+  --color-aurora-50: #f5f7fa;
+  --color-aurora-100: #e8ecf3;
+  --color-aurora-200: #d4dde9;
+  --color-aurora-300: #b5c4da;
+  --color-aurora-400: #8ea4c4;
+  --color-aurora-500: #748eb5;
+  --color-aurora-600: #5d759d;
+  --color-aurora-700: #4c5e7f;
+  --color-aurora-800: #41506a;
+  --color-aurora-900: #394458;
+
+  --color-wisteria: #6e5a88;
+  --color-wisteria-50: #f8f6f9;
+  --color-wisteria-100: #f0ecf3;
+  --color-wisteria-200: #e2dae9;
+  --color-wisteria-300: #cbbdd7;
+  --color-wisteria-400: #b09cc0;
+  --color-wisteria-500: #8f77a4;
+  --color-wisteria-600: #6e5a88;
+  --color-wisteria-700: #5b4a71;
+  --color-wisteria-800: #4c3e5e;
+  --color-wisteria-900: #352945;
+  --color-wisteria-950: #231a30;
+
+  /* Theme mappings for blue -> aurora */
+  --color-blue-50: #f5f7fa;
+  --color-blue-100: #e8ecf3;
+  --color-blue-200: #d4dde9;
+  --color-blue-300: #b5c4da;
+  --color-blue-400: #8ea4c4;
+  --color-blue-500: #748eb5;
+  --color-blue-600: #8ea4c4;
+  --color-blue-700: #5d759d;
+  --color-blue-800: #4c5e7f;
+  --color-blue-900: #394458;
+
+  /* Theme mappings for black / deep slate -> wisteria */
+  --color-black: #231a30;
+  --color-slate-900: #352945;
+  --color-slate-950: #231a30;
+}
+
+@layer base {
+  :root {
+    font-family: 'Plus Jakarta Sans', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  }
+
+  body {
+    background-color: #faf9fb;
+    color: #261f31;
+    min-height: 100vh;
+  }
+
+  ::selection {
+    background-color: #6e5a88;
+    color: #ffffff;
+  }
+}
+
+/* Custom subtle scrollbar in Wisteria / Aurora tones */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #f0ecf3;
+}
+::-webkit-scrollbar-thumb {
+  background: #cbbdd7;
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #8ea4c4;
+}
