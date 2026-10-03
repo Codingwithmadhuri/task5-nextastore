@@ -7,7 +7,7 @@
 ---
 ## 🌐 Live Demo
 
-👉 **[Click Here to View Live Demo](https://your-demo-link.netlify.app/)**
+👉 **[Click Here to View Live Demo](task5-nexastore.netlify.app)**
 
 ## 1. Project Overview
 
